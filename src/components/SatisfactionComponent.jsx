@@ -23,7 +23,7 @@ function SatisfactionComponent() {
   return (
     <div className='dark:bg-white bg-mainBlue mt-[50px] flex flex-col items-center justify-center'>
         <div>
-        <h2 className='dark:text-lightBlue text-white text-[40px] mt-[30px] font-semibold'>We always prioritize customer satisfaction</h2>
+        <h2 className='dark:text-lightBlue text-white lg:text-[40px] text-[25px] lg:mt-[30px] text-center font-semibold'>We always prioritize customer satisfaction</h2>
         </div>
         
         {/*cards */}

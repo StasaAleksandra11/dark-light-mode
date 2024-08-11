@@ -31,7 +31,7 @@ function NewsComponent() {
   return (
     <div className='ontainer mx-auto mt-[30px] dark:bg-mainBlue bg-white'>
         <div className=''>
-            <h2 className='dark:text-white text-mainBlue text-[42px] font-semibold ml-[30px]' >latest news from Imoodev</h2>
+            <h2 className='dark:text-white text-mainBlue lg:text-[42px] text-center lg:text-left text-[25px] font-semibold ml-[30px]' >Latest news from Imoodev</h2>
         </div>
         <div className='flex lg:flex-row flex-col '>
             {cards.map((card, index) => {

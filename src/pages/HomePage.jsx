@@ -7,6 +7,8 @@ import ConsultComponent from '../components/ConsultComponent'
 import BuildingComponent from '../components/BuildingComponent'
 import SatisfactionComponent from '../components/SatisfactionComponent'
 import NewsComponent from '../components/NewsComponent'
+import NewsletterComponent from '../components/NewsletterComponent'
+
 
 function HomePage() {
   return (
@@ -17,6 +19,8 @@ function HomePage() {
       <BuildingComponent/>
       <SatisfactionComponent/>
       <NewsComponent/>
+      <NewsletterComponent/>
+      
     </div>
   )
 }

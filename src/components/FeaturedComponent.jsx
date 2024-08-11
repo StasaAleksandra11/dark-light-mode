@@ -38,7 +38,7 @@ function FeaturedComponent() {
         <div className='flex lg:flex-row items-center flex-col '>
           <div className='lg:w-[50%] w-[80%]'>
              <h3 className='text-[#FF6F29] text-[24px]'>What Does Imoodev Do?</h3>
-             <h2 className='dark:text-white text-mainBlue text-[42px] font-semibold'>Analyzing Target Customers with the Right!</h2>
+             <h2 className='dark:text-white text-mainBlue lg:text-[42px]  text-[30px] font-semibold'>Analyzing Target Customers with the Right!</h2>
           </div>
           <p className='lg:w-[50%] w-[80%] dark:text-white text-mainBlue '>Do not miss this opportunity. With our experience, Whello will find something unique in your brand. Analyze and try to follow what your audience really likes and is looking for, so that your customers will be more loyal to you.</p>
 
