@@ -33,7 +33,8 @@ function FeaturedComponent() {
         color: '#FF4D6D'
     }]
   return (
-    <div className='container mx-auto mt-[40px]  '>
+   <div className='dark:bg-mainBlue bg-white'>
+        <div className='container mx-auto mt-[40px]  '>
             {/*header */}
         <div className='flex lg:flex-row items-center flex-col '>
           <div className='lg:w-[50%] w-[80%]'>
@@ -55,6 +56,7 @@ function FeaturedComponent() {
         </div>
 
     </div>
+   </div>
   )
 }
 

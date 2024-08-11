@@ -29,7 +29,8 @@ function NewsComponent() {
         }]
 
   return (
-    <div className='ontainer mx-auto mt-[30px] dark:bg-mainBlue bg-white'>
+   <div className='dark:bg-mainBlue bg-white'>
+        <div className='container mx-auto mt-[30px] '>
         <div className=''>
             <h2 className='dark:text-white text-mainBlue lg:text-[42px] text-center lg:text-left text-[25px] font-semibold ml-[30px]' >Latest news from Imoodev</h2>
         </div>
@@ -50,6 +51,7 @@ function NewsComponent() {
             })}
         </div>
     </div>
+   </div>
   )
 }
 

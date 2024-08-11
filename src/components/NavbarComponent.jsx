@@ -12,7 +12,10 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 	}
 
 	return (
-		<div className='container mx-auto flex lg:flex-row flex-col justify-between items-center h-[100px] px-[4px] '>
+		
+		<div className='dark:bg-mainBlue'>
+
+         <div className='container mx-auto flex lg:flex-row flex-col justify-between items-center h-[100px] px-[4px] '>
 			{activeDark ? (
 				<img src={Imoodev} alt='logo' className='lg:h-[17px] h-[20px] lg:mt-0 mt-[15px] '/>
 			) : (
@@ -49,6 +52,7 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 					/>
 				)}
 			</div>
+		</div>
 		</div>
 	);
 }

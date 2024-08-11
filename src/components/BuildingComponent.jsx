@@ -2,7 +2,8 @@ import React from 'react'
 import Rectanglee from '../assets/Rectanglee.png'
 function BuildingComponent() {
   return (
-    <div className='container mx-auto mt-[40px] flex lg:flex-row flex-col'>
+   <div className='dark:bg-mainBlue bg-white'>
+        <div className='container mx-auto mt-[40px] flex lg:flex-row flex-col'>
         {/*image */}
         <div className='lg:w-[50%] w-[80%] lg:ml-0 ml-[43px]'>
             <img src={Rectanglee} alt='' className=''/>
@@ -16,6 +17,7 @@ function BuildingComponent() {
         </div>
 
     </div>
+   </div>
   )
 }
 

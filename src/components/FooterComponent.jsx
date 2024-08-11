@@ -9,7 +9,7 @@ import { FaChevronCircleRight } from "react-icons/fa";
 
 function FooterComponent({activeDark}) {
   return ( 
-    <div>
+    <div className='dark:bg-mainBlue bg-white'>
 
 
 <div className='container mx-auto mt-[100px] flex lg:flex-row flex-col lg:items-start items-center justify-around'> 
@@ -52,7 +52,7 @@ function FooterComponent({activeDark}) {
      {/* e-mail */}
      <div className='flex flex-col lg:items-start items-center justify-center lg:mt-0 mt-[30px]'>
          <h3 className='font-semibold text-[20px] dark:text-white'>Join our email</h3>
-         <p className='text-gray-400 p-[5px]'>Enter your email address for joined our agency</p>
+         <p className='text-gray-400 p-[5px] lg:text-start text-center'>Enter your email address for joined our agency</p>
          <div className='flex items-center justify-center mt-[10px]'>
              <input  className='border border-lightGray px-[15px] py-[5px] mr-[5px] outline-none dark:placeholder:text-mainBlue dark:mr-[20px]' type='text' placeholder='Email Address'/>
              <button>{activeDark ? <FaChevronCircleRight size={28} color='white'/> : <FaChevronCircleRight size={28}/>}</button>
