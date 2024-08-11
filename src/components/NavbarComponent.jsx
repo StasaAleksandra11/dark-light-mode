@@ -16,7 +16,7 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 			{activeDark ? (
 				<img src={Imoodev} alt='logo' className='lg:h-[17px] h-[20px] lg:mt-0 mt-[15px] '/>
 			) : (
-				<img src={logo} alt='logo' />
+				<img src={logo} alt='logo' className='lg:h-[17px] h-[20px] lg:mt-0 mt-[15px] ' />
 			)}
 			<div className='flex items-center gap-[20px] '>
 				<ul className='dark:text-white text-mainBlue flex gap-[10px] cursor-pointer font-semibold'>
