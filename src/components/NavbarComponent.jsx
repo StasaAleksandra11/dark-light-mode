@@ -12,13 +12,13 @@ function NavbarComponent({ activeDark, setActiveDark }) {
 	}
 
 	return (
-		<div className='container mx-auto flex justify-between items-center h-[100px] px-[4px] '>
+		<div className='container mx-auto flex lg:flex-row flex-col justify-between items-center h-[100px] px-[4px] '>
 			{activeDark ? (
-				<img src={Imoodev} alt='logo'/>
+				<img src={Imoodev} alt='logo' className='lg:h-[17px] h-[20px] lg:mt-0 mt-[15px] '/>
 			) : (
 				<img src={logo} alt='logo' />
 			)}
-			<div className='flex items-center gap-[20px]'>
+			<div className='flex items-center gap-[20px] '>
 				<ul className='dark:text-white text-mainBlue flex gap-[10px] cursor-pointer font-semibold'>
 					<li>
 						<NavLink to='/'>Home</NavLink>
